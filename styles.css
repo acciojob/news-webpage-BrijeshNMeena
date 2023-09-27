@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+body{
+	background-color: #f5f5f5;
+}
+.header{
+	background-color:#011e29;
+	text-align: center;
+	color: white;
+	padding: 2px;
+}
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-items: space-evenly;
+	width: 90vw;
+/* 	background-color: yellowgreen; */
+	margin-left: 4%
+}
+.items{
+	padding: 10px;
+	background-color: white;
+	margin: 2px;
+	border-radius: 10px;
+	text-align: center;
+}
+img{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.latest-news-section{
+	flex: 1
+}
+.main-article{
+	flex: 2
+}
+.pictorial-news-section{
+	flex: 1
+}
